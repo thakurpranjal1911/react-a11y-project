@@ -1,7 +1,7 @@
 {
-  "name": "incubyte-react-a11y-project",
+  "name": "react-a11y-project",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,21 +10,23 @@
     "test": "vitest",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
-  "author": "Incubyte",
-  "description": "Incubyte React A11y Project",
+  "author": "Pranjal Thakur",
+  "description": "React Accessibility Project deployed via GitHub Pages",
   "keywords": [
     "react",
-    "a11y"
+    "vite",
+    "a11y",
+    "accessibility"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/incubyte/incubyte-react-a11y-project.git"
+    "url": "https://github.com/thakurpranjal1911/react-a11y-project.git"
   },
   "bugs": {
-    "url": "https://github.com/incubyte/incubyte-react-a11y-project/issues"
+    "url": "https://github.com/thakurpranjal1911/react-a11y-project/issues"
   },
   "homepage": "https://thakurpranjal1911.github.io/react-a11y-project/",
   "dependencies": {
